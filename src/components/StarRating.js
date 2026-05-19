@@ -11,6 +11,12 @@ function StarRating() {
         4: 'Very Good',
         5: 'Excellent'
     };
+
+    const handleClick = (starIndex) => {
+        setRating(starIndex);
+    };
+    
+    const stars = [1, 2, 3, 4, 5];
   return (
    <></>
   );
