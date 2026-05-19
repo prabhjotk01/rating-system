@@ -8,7 +8,18 @@ function App() {
         setShowDialog(false);
     };
   return (
-   <></>
+      <div className="container">
+            <StarRating />
+            
+            <button 
+                className="show-dialog-btn"
+                onClick={() => setShowDialog(true)}
+            >
+                Submit Rating
+            </button>
+
+            {showDialog && <Dialog closeDialog={closeDialog} />}
+        </div>
   );
 }
 
