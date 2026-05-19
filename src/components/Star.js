@@ -1,5 +1,7 @@
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import { FaStar } from "@fortawesome/free-solid-svg-icons";
 
-function Star() {
+function Star(props) {
   return (
    <></>
   );
