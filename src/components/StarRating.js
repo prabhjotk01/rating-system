@@ -25,8 +25,7 @@ function StarRating() {
                     <Star 
                         key={starIndex}
                         filled={starIndex <= rating}
-                        onClick={() => handleClick(starIndex)}
-                    />
+                        onClick={() => handleClick(starIndex)}/>
                 ))}
             </div>
             <h2 className="rating-word">
