@@ -1,20 +1,20 @@
 import { useState } from "react";
 import StarRating from "./components/StarRating";
 import Dialog from "./components/Dialog";
+
 function App() {
       const [showDialog, setShowDialog] = useState(false);
     
-    const closeDialog = () => {
+      const closeDialog = () => {
         setShowDialog(false);
-    };
-  return (
+      };
+      return (
       <div className="container">
             <StarRating />
             
             <button 
                 className="show-dialog-btn"
-                onClick={() => setShowDialog(true)}
-            >
+                onClick={() => setShowDialog(true)}>
                 Submit Rating
             </button>
 
