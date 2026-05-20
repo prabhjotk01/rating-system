@@ -13,9 +13,9 @@ function App() {
             <StarRating />
             
             <button 
-                className="show-dialog-btn"
-                onClick={() => setShowDialog(true)}>
-                Submit Rating
+              className="show-dialog-btn"
+              onClick={() => setShowDialog(true)}>
+              Submit Rating
             </button>
 
             {showDialog && <Dialog closeDialog={closeDialog} />}
